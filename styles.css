@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+/* Making CSS color variables */
+
+:root{
+    --purple-color: #536DFE;
+    --project-color: #66DE93;
+    --blog-color: #FF96AD;
+    --gray-color: #707784;
+    --Off-white: #E5E7EB;
+
+} 
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.nav-bar{
+    background-color: var(--purple-color);
+}
+
+/* NAVIGATION BAR */
+.nav-bar{
+    background-color: var(--purple-color);
+    color: white;
+}
+
+.iamB{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav-list{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    list-style: none;
+    text-align: right;
+    
+}
+
+.container{
+    padding: 1rem;
+    border-bottom-left-radius: 50%;
+}
+
+.nav-list:hover{
+    font-weight: bold;
+}
+
+.nav-list a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.project-nav {
+    background-color: var(--purple-color)
+}
+
+.blog-nav{
+    background-color: var(--purple-color);
+}
+
+/* Header section */
+
+.header{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.HeroImg{
+    max-width: 40%;
+}
+
+.header{
+    text-align: center;
+}
+
+.hero-heading{
+    color: var(--gray-color); 
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+span{
+    color: var(--purple-color);
+}
+
+/* Off-white section */
+
+.off-white{
+    background-color: var(--Off-white);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h3{
+    color: var(--purple-color);
+    font-size: 2rem;
+}
+
+p{
+    color: var(--gray-color)
+}
+
+/* white section */
+.white{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.btn{
+    background-color: var(--purple-color);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 0.5rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+.white-p{
+    font-size: 2rem;
+}
+
+/* blogs section */
+
+.btn-2{
+    border: 1px solid var(--purple-color);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 0.5rem;
+    color: var(--purple-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+.connect-me{
+    color: white;
+    text-decoration: none;
+    background-color: var(--purple-color);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h4{
+    color: var(white);
+    font-size: 2rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.Bailarin-project{
+    text-align: center;
+    border-bottom-width: 1rem;
+    border: 1px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
